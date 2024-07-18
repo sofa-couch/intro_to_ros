@@ -12,7 +12,7 @@ class armDisarm(Node):
 
         self.client = self.create_client(CommandBool, 'mavros/cmd/arming')
         while not self.client.wait_for_service(timeout_sec = 1):
-            self.get_logger('Service unavailable.  Retrying.')
+            self.get_logger().info('Service unavailable.  Retrying.')
         self.request = CommandBook.Request()
 
     def arm_request(self, msg):
