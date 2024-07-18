@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.002043] (intro_to_ros) JobQueued: {'identifier': 'intro_to_ros', 'dependencies': OrderedDict()}
+[0.002678] (intro_to_ros) JobStarted: {'identifier': 'intro_to_ros'}
+[0.099967] (-) TimerEvent: {}
+[0.200977] (-) TimerEvent: {}
+[0.302649] (-) TimerEvent: {}
+[0.403299] (-) TimerEvent: {}
+[0.504006] (-) TimerEvent: {}
+[0.604658] (-) TimerEvent: {}
+[0.707269] (-) TimerEvent: {}
+[0.808035] (-) TimerEvent: {}
+[0.910621] (-) TimerEvent: {}
+[1.011422] (-) TimerEvent: {}
+[1.112107] (-) TimerEvent: {}
+[1.212878] (-) TimerEvent: {}
+[1.313687] (-) TimerEvent: {}
+[1.416613] (-) TimerEvent: {}
+[1.519678] (-) TimerEvent: {}
+[1.620378] (-) TimerEvent: {}
+[1.721151] (-) TimerEvent: {}
+[1.821800] (-) TimerEvent: {}
+[1.922488] (-) TimerEvent: {}
+[2.023983] (-) TimerEvent: {}
+[2.124594] (-) TimerEvent: {}
+[2.225245] (-) TimerEvent: {}
+[2.326728] (-) TimerEvent: {}
+[2.429586] (-) TimerEvent: {}
+[2.530658] (-) TimerEvent: {}
+[2.631380] (-) TimerEvent: {}
+[2.732066] (-) TimerEvent: {}
+[2.833153] (-) TimerEvent: {}
+[2.934903] (-) TimerEvent: {}
+[3.037455] (-) TimerEvent: {}
+[3.138453] (-) TimerEvent: {}
+[3.239337] (-) TimerEvent: {}
+[3.340341] (-) TimerEvent: {}
+[3.441835] (-) TimerEvent: {}
+[3.542546] (-) TimerEvent: {}
+[3.643318] (-) TimerEvent: {}
+[3.744042] (-) TimerEvent: {}
+[3.844700] (-) TimerEvent: {}
+[3.946138] (-) TimerEvent: {}
+[4.046912] (-) TimerEvent: {}
+[4.149019] (-) TimerEvent: {}
+[4.249704] (-) TimerEvent: {}
+[4.350428] (-) TimerEvent: {}
+[4.452100] (-) TimerEvent: {}
+[4.552853] (-) TimerEvent: {}
+[4.654359] (-) TimerEvent: {}
+[4.755344] (-) TimerEvent: {}
+[4.856730] (-) TimerEvent: {}
+[4.959533] (-) TimerEvent: {}
+[5.060291] (-) TimerEvent: {}
+[5.161600] (-) TimerEvent: {}
+[5.262355] (-) TimerEvent: {}
+[5.363025] (-) TimerEvent: {}
+[5.463612] (-) TimerEvent: {}
+[5.564341] (-) TimerEvent: {}
+[5.665170] (-) TimerEvent: {}
+[5.765886] (-) TimerEvent: {}
+[5.866624] (-) TimerEvent: {}
+[5.967416] (-) TimerEvent: {}
+[6.068231] (-) TimerEvent: {}
+[6.169352] (-) TimerEvent: {}
+[6.271631] (-) TimerEvent: {}
+[6.372577] (-) TimerEvent: {}
+[6.477523] (-) TimerEvent: {}
+[6.571995] (intro_to_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/intro_to_ros', 'build', '--build-base', '/home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/build', 'install', '--record', '/home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sophiac/auvc_ws/src/intro_to_ros', 'env': {'VIRTUALENVWRAPPER_WORKON_CD': '1', 'USER': 'sophiac', 'SSH_CLIENT': '169.254.254.198 60205 22', 'WORKON_HOME': '/home/sophiac/.virtualenvs', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sophiac/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/sophiac/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/helpers/browser.sh', 'HOME': '/home/sophiac', 'OLDPWD': '/home/sophiac/auvc_ws/src/intro_to_ros', 'LESS': '-R', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'TERM_PROGRAM_VERSION': '1.91.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/1004/vscode-ipc-ed55d23b-2ce9-4b92-bd14-3325eb628c02.sock', 'ZSH': '/home/sophiac/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sophiac/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/extensions/git/dist/askpass-main.js', 'PS1': '(ros) %(?:%{\x1b[01;32m%}%1{➜%} :%{\x1b[01;31m%}%1{➜%} ) %{\x1b[36m%}%c%{\x1b[00m%} $(git_prompt_info)', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_GIT_ASKPASS_NODE': '/home/sophiac/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/sophiac/auvc_ws/install', 'LOGNAME': 'sophiac', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USER_ZDOTDIR': '/home/sophiac', 'XDG_SESSION_ID': '2', 'TERM': 'xterm-256color', 'PATH': '/home/sophiac/.virtualenvs/ros/bin:/home/sophiac/.local/bin:/home/sophiac/.vscode-server/cli/servers/Stable-ea1445cc7016315d0f5728f8e8b12a45dc0a7286/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/sophiac/.local/bin:/home/sophiac/.local/bin:/home/sophiac/ardupilot/TARGET_DIR/gcc-arm-none-eabi-10-2020-q4-major/bin', 'XDG_RUNTIME_DIR': '/run/user/1004', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'VSCODE_INJECTION': '1', 'VIRTUAL_ENV_PROMPT': 'ros', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1004/vscode-git-913a059c62.sock', 'AMENT_PREFIX_PATH': '/home/sophiac/auvc_ws/install/intro_to_ros:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/sophiac/.virtualenvs', 'VIRTUALENVWRAPPER_SCRIPT': 'virtualenvwrapper.sh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VIRTUAL_ENV': '/home/sophiac/.virtualenvs/ros', 'PWD': '/home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '169.254.254.198 60205 169.254.193.89 22', 'ZDOTDIR': '/home/sophiac', 'PYTHONPATH': '/home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/python3.12/site-packages:/home/sophiac/auvc_ws/build/intro_to_ros:/home/sophiac/auvc_ws/install/intro_to_ros/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[6.581467] (-) TimerEvent: {}
+[6.683050] (-) TimerEvent: {}
+[6.787406] (-) TimerEvent: {}
+[6.888254] (-) TimerEvent: {}
+[6.990437] (-) TimerEvent: {}
+[7.091123] (-) TimerEvent: {}
+[7.191844] (-) TimerEvent: {}
+[7.292492] (-) TimerEvent: {}
+[7.393581] (-) TimerEvent: {}
+[7.494254] (-) TimerEvent: {}
+[7.597915] (-) TimerEvent: {}
+[7.700010] (-) TimerEvent: {}
+[7.802356] (-) TimerEvent: {}
+[7.903255] (-) TimerEvent: {}
+[8.005217] (-) TimerEvent: {}
+[8.107191] (-) TimerEvent: {}
+[8.209815] (-) TimerEvent: {}
+[8.310463] (-) TimerEvent: {}
+[8.418011] (-) TimerEvent: {}
+[8.483170] (intro_to_ros) StdoutLine: {'line': b'running egg_info\n'}
+[8.484524] (intro_to_ros) StdoutLine: {'line': b'creating build/intro_to_ros/intro_to_ros.egg-info\n'}
+[8.518181] (-) TimerEvent: {}
+[8.618873] (-) TimerEvent: {}
+[8.723407] (-) TimerEvent: {}
+[8.825300] (-) TimerEvent: {}
+[8.926138] (-) TimerEvent: {}
+[9.032065] (-) TimerEvent: {}
+[9.132674] (-) TimerEvent: {}
+[9.233839] (-) TimerEvent: {}
+[9.334427] (-) TimerEvent: {}
+[9.395511] (intro_to_ros) StdoutLine: {'line': b'writing build/intro_to_ros/intro_to_ros.egg-info/PKG-INFO\n'}
+[9.397128] (intro_to_ros) StdoutLine: {'line': b'writing dependency_links to build/intro_to_ros/intro_to_ros.egg-info/dependency_links.txt\n'}
+[9.398407] (intro_to_ros) StdoutLine: {'line': b'writing entry points to build/intro_to_ros/intro_to_ros.egg-info/entry_points.txt\n'}
+[9.399611] (intro_to_ros) StdoutLine: {'line': b'writing requirements to build/intro_to_ros/intro_to_ros.egg-info/requires.txt\n'}
+[9.400814] (intro_to_ros) StdoutLine: {'line': b'writing top-level names to build/intro_to_ros/intro_to_ros.egg-info/top_level.txt\n'}
+[9.401813] (intro_to_ros) StdoutLine: {'line': b"writing manifest file 'build/intro_to_ros/intro_to_ros.egg-info/SOURCES.txt'\n"}
+[9.436200] (-) TimerEvent: {}
+[9.538609] (-) TimerEvent: {}
+[9.640116] (-) TimerEvent: {}
+[9.724852] (intro_to_ros) StdoutLine: {'line': b"reading manifest file 'build/intro_to_ros/intro_to_ros.egg-info/SOURCES.txt'\n"}
+[9.730088] (intro_to_ros) StdoutLine: {'line': b"writing manifest file 'build/intro_to_ros/intro_to_ros.egg-info/SOURCES.txt'\n"}
+[9.730713] (intro_to_ros) StdoutLine: {'line': b'running build\n'}
+[9.731307] (intro_to_ros) StdoutLine: {'line': b'running build_py\n'}
+[9.732065] (intro_to_ros) StdoutLine: {'line': b'creating /home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/build\n'}
+[9.732631] (intro_to_ros) StdoutLine: {'line': b'creating /home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/build/lib\n'}
+[9.733362] (intro_to_ros) StdoutLine: {'line': b'creating /home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/build/lib/intro_to_ros\n'}
+[9.734111] (intro_to_ros) StdoutLine: {'line': b'copying intro_to_ros/publisher.py -> /home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/build/lib/intro_to_ros\n'}
+[9.734715] (intro_to_ros) StdoutLine: {'line': b'copying intro_to_ros/bluerov2_sensors.py -> /home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/build/lib/intro_to_ros\n'}
+[9.735198] (intro_to_ros) StdoutLine: {'line': b'copying intro_to_ros/subscriber.py -> /home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/build/lib/intro_to_ros\n'}
+[9.735895] (intro_to_ros) StdoutLine: {'line': b'copying intro_to_ros/__init__.py -> /home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/build/lib/intro_to_ros\n'}
+[9.736637] (intro_to_ros) StdoutLine: {'line': b'running install\n'}
+[9.740584] (-) TimerEvent: {}
+[9.763957] (intro_to_ros) StdoutLine: {'line': b'running install_lib\n'}
+[9.840790] (-) TimerEvent: {}
+[9.943115] (-) TimerEvent: {}
+[9.960911] (intro_to_ros) StdoutLine: {'line': b'creating /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/python3.12/site-packages/intro_to_ros\n'}
+[9.962185] (intro_to_ros) StdoutLine: {'line': b'copying /home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/build/lib/intro_to_ros/publisher.py -> /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/python3.12/site-packages/intro_to_ros\n'}
+[9.963169] (intro_to_ros) StdoutLine: {'line': b'copying /home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/build/lib/intro_to_ros/bluerov2_sensors.py -> /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/python3.12/site-packages/intro_to_ros\n'}
+[9.964294] (intro_to_ros) StdoutLine: {'line': b'copying /home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/build/lib/intro_to_ros/subscriber.py -> /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/python3.12/site-packages/intro_to_ros\n'}
+[9.965364] (intro_to_ros) StdoutLine: {'line': b'copying /home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/build/lib/intro_to_ros/__init__.py -> /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/python3.12/site-packages/intro_to_ros\n'}
+[9.970220] (intro_to_ros) StdoutLine: {'line': b'byte-compiling /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/python3.12/site-packages/intro_to_ros/publisher.py to publisher.cpython-312.pyc\n'}
+[9.974555] (intro_to_ros) StdoutLine: {'line': b'byte-compiling /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/python3.12/site-packages/intro_to_ros/bluerov2_sensors.py to bluerov2_sensors.cpython-312.pyc\n'}
+[9.978056] (intro_to_ros) StdoutLine: {'line': b'byte-compiling /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/python3.12/site-packages/intro_to_ros/subscriber.py to subscriber.cpython-312.pyc\n'}
+[9.981333] (intro_to_ros) StdoutLine: {'line': b'byte-compiling /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/python3.12/site-packages/intro_to_ros/__init__.py to __init__.cpython-312.pyc\n'}
+[9.982549] (intro_to_ros) StdoutLine: {'line': b'running install_data\n'}
+[9.983278] (intro_to_ros) StdoutLine: {'line': b'creating /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/share/ament_index\n'}
+[9.984033] (intro_to_ros) StdoutLine: {'line': b'creating /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/share/ament_index/resource_index\n'}
+[9.984653] (intro_to_ros) StdoutLine: {'line': b'creating /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/share/ament_index/resource_index/packages\n'}
+[9.985244] (intro_to_ros) StdoutLine: {'line': b'copying resource/intro_to_ros -> /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/share/ament_index/resource_index/packages\n'}
+[9.985812] (intro_to_ros) StdoutLine: {'line': b'copying package.xml -> /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/share/intro_to_ros\n'}
+[9.987638] (intro_to_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.043287] (-) TimerEvent: {}
+[10.139211] (intro_to_ros) StdoutLine: {'line': b'Copying build/intro_to_ros/intro_to_ros.egg-info to /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/python3.12/site-packages/intro_to_ros-0.0.0-py3.12.egg-info\n'}
+[10.143473] (-) TimerEvent: {}
+[10.148031] (intro_to_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[10.243660] (-) TimerEvent: {}
+[10.344533] (-) TimerEvent: {}
+[10.445181] (-) TimerEvent: {}
+[10.546463] (-) TimerEvent: {}
+[10.561608] (intro_to_ros) StdoutLine: {'line': b'Installing bluerov2_sensor script to /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/intro_to_ros\n'}
+[10.563515] (intro_to_ros) StdoutLine: {'line': b'Installing publisher script to /home/sophiac/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/intro_to_ros\n'}
+[10.564281] (intro_to_ros) StdoutLine: {'line': b"writing list of installed files to '/home/sophiac/auvc_ws/src/intro_to_ros/build/intro_to_ros/install.log'\n"}
+[10.647719] (-) TimerEvent: {}
+[10.754001] (-) TimerEvent: {}
+[10.757539] (intro_to_ros) CommandEnded: {'returncode': 0}
+[10.833541] (intro_to_ros) JobEnded: {'identifier': 'intro_to_ros', 'rc': 0}
+[10.837975] (-) EventReactorShutdown: {}
