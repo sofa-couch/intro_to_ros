@@ -7,10 +7,6 @@ from rcply.qos import QoSProfile, QoSDurabilityPolicy, QoSHistoryPolicy, QoSReli
 import numpy as np
 
 class blueROV2Sensors(Node):
-  
-  battery_msg = None
-  imu_msg = None
-
   def __init__(self):
     '''
   Initializing node 
@@ -25,17 +21,19 @@ class blueROV2Sensors(Node):
     self.battery_sub = self.create_subscription(
       BatteryState,
       "/mavros/battery",
-      self.callback,
+      self.battery_cb,
       qosProfile
     )
+    self.battery_sub
 
     #Reads IMU data
     self.imu_sub = self.create_subscription(
       Imu,
       "/mavros/imu/data",
-      self.callback,
+      self.imu_cb,
       qosProfile
     )
+    self.imu_sub
 
     #Reads static pressure
     #!!!NOT CORRECT SENSOR!!!
@@ -45,36 +43,51 @@ class blueROV2Sensors(Node):
       self.static_pressure_cb,
       qosProfile
     )
+    self.static_pressure
 
     #reads differential pressure (AKA ??)
     #not ideal to use bc small errors grow exponentially
+    #also wrong sensor
     self.differential_pressure = self.create_subscription(
       FluidPressure,
       "/mavros/imu/diff_pressure",
       self.differential_pressure_cb,
       qosProfile
     )
+    self.differential_pressure
 
-#checks for safe voltage levels every 5 seconds
-    self.publisher_timer = self.create_timer(
-      5.0, check_voltage(self, battery_msg, battery_subscriber, imu_msg, imu_subscriber)
-    )
-    
-    #Establishing variables exist (good practice)
-    self.battery_subscriber
-    self.imu_subscriber
+    #calls timer
+    self.timer = self.create_timer(5, self.check_voltage)
+
     self.get_logger().info("starting subscriber node")
 
 
 
-  def check_voltage(self, battery_msg, battery_subscriber, imu_msg, imu_subscriber, msg):
-    self.battery_msg = self.battery_subscriber
-    self.imu_msg = self.imu_subscriber
 
-    print(f"Battery voltage: {self.battery_msg}")
-
+  def check_voltage(self):
+    '''
+    checks to make sure battery is at a safe voltage
+    '''
+    voltage = self.battery_sub.voltage
+    print(f"Battery voltage: {voltage}")
     if self.battery_msg < 12:
       self.get_logger("Battery has fallen below a safe voltage")
+
+
+  def imu_cb(self, msg):
+    self.imu_msg = msg
+    self.get_logger().info(f"IMU accel: {msg.linear_acceleration}")
+
+  def static_pressure_cb(self, mag):
+    atm = 101325
+    gravity = 9.81
+    self.s_pressure_msg = imu_msg
+    self.get_logger().info(f"Static pressure: {msg.fluid_pressure}")
+    self.get_logger().info(f"Depth: {(msg-atm)/gravity/1000}")
+
+  def differential_pressure_cb(self, msg):
+    self.diff_pressure_msg = msg
+    self.get_logger(). info(f"Diff Pressure: {msg.fluid_pressure}")
 
 
 

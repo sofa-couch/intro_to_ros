@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'publisher = intro_to_ros.publisher:main',  
-            'bluerov2_sensor = intro_to_ros.bluerov2_sensor:main'
+            'bluerov2_sensor = intro_to_ros.bluerov2_sensor:main',
+            'arm_disarm = intro_to_ros.arm_disarm:main',
         ],
     },
 )
