@@ -11,23 +11,19 @@ class Movement(Node):
         super().__init__("movement")
         qos_profile = QoSProfile(
             reliability=ReliabilityPolicy.RELIABLE,
-            durability=DurabilityPolicy.TRANSIENT_LOCAL,
-            history=HistoryPolicy.KEEP_LAST,
-            depth=1
+            durability=DurabilityPolicy.VOLATILE,
+            history=HistoryPolicy.SYSTEM_DEFAULT,
+            depth=10
         )
-        self.publisher = self.create_publisher(
-            OverrideRCIn,
-            "/mavros/rc/override",
-            qos_profile
+        self.publisher = self.create_publisher(OverrideRCIn, "/mavros/rc/override", qos_profile
         )
-        self.get_logger().info("starting publish")
-        self.publisher_timer = self.create_timer(
-            5.0, self.run_node
-        )
+        self.get_logger().info("Publishing")
+
+        self.publisher_timer = self.create_timer( 5.0, self.run_node )
 
     
     def run_node(self):
-        channels = [1900,1900,1500,1500,1500,1500,
+        channels = [1700,1700,1700,1700,1700,1700,
                     OverrideRCIn.CHAN_NOCHANGE,OverrideRCIn.CHAN_NOCHANGE,OverrideRCIn.CHAN_NOCHANGE,
                     OverrideRCIn.CHAN_NOCHANGE,OverrideRCIn.CHAN_NOCHANGE,OverrideRCIn.CHAN_NOCHANGE,
                     OverrideRCIn.CHAN_NOCHANGE,OverrideRCIn.CHAN_NOCHANGE,OverrideRCIn.CHAN_NOCHANGE,
