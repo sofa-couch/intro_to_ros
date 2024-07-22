@@ -18,7 +18,6 @@ class Movement(Node):
         self.publisher = self.create_publisher(OverrideRCIn, "/mavros/rc/override", qos_profile
         )
         self.get_logger().info("Publishing")
-
         self.publisher_timer = self.create_timer( 5.0, self.run_node )
 
     
